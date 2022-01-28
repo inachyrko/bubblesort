@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         int[] arrayEasy = {3, 2, 1};
 
-        bubblesorting(arrayEasy);
+        bubbleSorting(arrayEasy);
 
     // write your code here
 
@@ -14,7 +14,7 @@ public class Main {
 
     }
 
-    static void bubblesorting(int[] sortingArray) {
+    public static void bubbleSorting(int[] sortingArray) {
         int comparisons = 0;
         int swapsdone = 0;
         boolean sorted = false;
@@ -30,6 +30,7 @@ public class Main {
                     swapsdone++;
                     sorted = false;
                 } else {
+                    //remove this comment!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                     System.out.println("no need to change elements" + i + "and" + (i + 1));
                 }
                 comparisons++;
